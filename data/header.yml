@@ -1,0 +1,28 @@
+menu:
+  home:
+    name: "Home"
+    link: "#"
+  team:
+    name: "Team"
+    link: "#team"
+  partners:
+    name: "Partners"
+    link: "#partner"
+
+heading: "Nervos Network"
+
+community:
+  name: "Join Our Community"
+  link: "http://t.me/nervosnetwork"
+
+whitepaper:
+  name: "Whitepaper"
+  link: "https://github.com/NervosFoundation/binary/blob/master/whitepaper/nervos-ckb.pdf"
+
+logo:
+  src: "nervos_logo.png"
+  srcset:
+    - ["nervos_logo_p_500.png", "500w"]
+    - ["nervos_logo_p_800.png", "800w"]
+    - ["nervos_logo_p_1080.png", "1080w"]
+    - ["nervos_logo_p_1520.png", "1520w"]

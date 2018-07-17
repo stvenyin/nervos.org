@@ -13,6 +13,10 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+# Live reload
+# use: https://github.com/middleman/middleman-livereload
+activate :livereload
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
@@ -36,6 +40,9 @@ page '/*.txt', layout: false
 #     'Helping'
 #   end
 # end
+require "lib/image_helpers"
+helpers ImageHelpers
+
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

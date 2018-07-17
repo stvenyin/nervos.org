@@ -1,0 +1,31 @@
+<div class="footer">
+  <div class="inner-container">
+    <div class="w-clearfix">
+      <div class="w-clearfix w-col">
+
+        <img src="<%= image_path('nervos_logo.png') %>" width="149" srcset="<%= image_path('nervos_logo_p_500.png') %> 500w, <%= image_path('nervos_logo_p_800.png') %> 800w, <%= image_path('nervos_logo_p_1080.png') %> 1080w, <%= image_path('nervos_logo_p_1520.png') %> 1520w"
+             sizes="(max-width: 479px) 100vw, 141px" class="image-8">
+
+        <p class="content-text text-block footer-text">
+          <%= data.footer.content_text %>
+        </p>
+      </div>
+
+      <% data.footer.infos.each do |_name, info| %>
+        <div class="w-col">
+          <h1 class="heading-section heading-footer"><%= info.name %></h1>
+
+          <% info.items.each do |_item_name, item| %>
+            <a href="<%= item.link %>" target="_blank" class="nav-item nav-footer">
+              <%= item.name %>
+            </a>
+          <% end %>
+
+        </div>
+      <% end %>
+
+    </div>
+
+    <p class="paragraph-2"><%= data.footer.rights %></p>
+  </div>
+</div>

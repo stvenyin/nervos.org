@@ -1,0 +1,142 @@
+.subscription {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: -webkit-linear-gradient(270deg, #19283a, #19283a);
+  background-image: linear-gradient(180deg, #19283a, #19283a);
+
+  .inner-container {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .div-block-5 {
+
+  }
+
+  .partner-button {
+    float: left;
+    color: #36cc92;
+    height: 48px;
+    margin-right: 16px;
+    border: 1px solid #36cc92;
+    border-radius: 4px;
+    background-color: hsla(0, 0%, 100%, 0);
+    font-family: Inconsolata, monospace;
+    line-height: 30px;
+    font-weight: 400;
+
+    display: inline-block;
+    padding: 9px 15px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .form-block {
+    margin: 0 0 15px 173px;
+  }
+
+  .form {
+    float: right;
+  }
+
+  .email-field {
+    width: 385px;
+    height: 48px;
+    float: left;
+    border-radius: 4px;
+    background-image: -webkit-linear-gradient(270deg, #19283a, #19283a);
+    background-image: linear-gradient(180deg, #19283a, #19283a);
+    font-family: Inconsolata, monospace;
+    color: #333;
+
+    display: block;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid hsla(0, 0%, 100%, .3);
+    margin: 0 16px 10px 0;
+  }
+
+  .submit-button {
+    -webkit-appearance: button;
+    float: right;
+    width: 180px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #36cc92;
+    font-family: Inconsolata, monospace;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+
+    display: inline-block;
+    padding: 12px 9px 15px 9px;
+    color: white;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+
+    margin: 0;
+  }
+
+  .w-form-done {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    background-color: #dddddd;
+  }
+
+  .w-form-fail {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffdede;
+  }
+
+  @media (max-width: 991px) {
+    .inner-container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    .div-block-5 {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
+    .partner-button {
+      width: 150px;
+      text-align: center;
+    }
+
+    .form {
+      display: inline-block;
+      width: 100%;
+      text-align: right;
+    }
+
+    .form-block {
+      display: block;
+      width: 75%;
+      float: right;
+    }
+
+    .email-field {
+      display: inline-block;
+      width: 250px;
+      float: none;
+      clear: none;
+    }
+
+    .submit-button {
+      display: inline-block;
+      width: 180px;
+      margin-top: 0px;
+      float: right;
+    }
+  }
+}
