@@ -1,15 +1,14 @@
 <div id="team" class="team">
-  <div class="inner-container">
+  <div class="container">
     <h1 class="heading-section">Nervos Team</h1>
     <div class="hr-line"></div>
-    <div class="main-core">
+    <div class="members">
 
       <% data.team.each_slice(3).to_a.each_with_index do |row| %>
-        <div class="row">
+        <div class="row clearfix">
           <% row.each_with_index do |person, index| %>
             <% property = person[1] %>
-            <div style="opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px) scaleX(1) scaleY(1) scaleZ(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skewX(0deg) skewY(0deg);"
-                 class="<%= 'main-col' if index % 3 == 0 %> w-col">
+            <div class="<%= 'main-col' if index % 3 == 0 %> col">
               <div class="img-team">
                 <img src="<%= image_path("team/" + property.image_name) %>" width="140" height="140"
                      sizes="(max-width: 479px) 100vw, 140px">
