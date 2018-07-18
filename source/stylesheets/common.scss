@@ -20,7 +20,7 @@ body {
   color: #333
 }
 
-.w-clearfix {
+.w-clearfix, .clearfix {
   &:before, &:after {
     content: " ";
     display: table;
@@ -28,5 +28,19 @@ body {
 
   &:after {
     clear: both;
+  }
+}
+
+.container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

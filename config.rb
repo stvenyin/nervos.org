@@ -47,7 +47,21 @@ helpers ImageHelpers
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+
+  # Append a hash to asset urls (make sure to use the url helpers)
+  activate :asset_hash
+
+  # Enable cache buster
+  # see: https://github.com/middleman/middleman-guides/blob/master/source/advanced/improving-cacheability.html.markdown#cache-buster-in-query-string
+  activate :cache_buster
+
+  # Use relative URLs
+  activate :relative_assets
+
+  # Gzip HTML, CSS, and JavaScript
+  # see: https://github.com/middleman/middleman-guides/blob/master/source/advanced/file-size-optimization.html.markdown#gzip-text-files
+  activate :gzip
+end
