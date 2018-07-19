@@ -1,0 +1,19 @@
+<div class="main-header">
+  <%= partial "header" %>
+
+  <div class="container">
+
+    <h1 class="heading"><%= data.header.heading %></h1>
+
+    <div class="button-group">
+      <a href="<%= data.header.community.link %>" target="_blank" class="button community-button"><%= data.header.community.name %></a>
+
+      <a href="<%= data.header.whitepaper.link %>"
+         target="_blank" class="button whitepaper-button">
+        <%= data.header.whitepaper.name %>
+      </a>
+    </div>
+
+  </div>
+</div>
+

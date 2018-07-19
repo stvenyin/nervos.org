@@ -1,34 +1,3 @@
-<header>
-  <div class="header-nav clearfix">
-
-    <div class="logo">
-      <a href="#">
-        <img src="<%= image_path(data.header.logo.src) %>" width="149" srcset="<%= parse_srcset_from_data(data.header.logo.srcset) %>"
-             sizes="(max-width: 479px) 81vw, 149px">
-      </a>
-    </div>
-
-    <div class="navbar">
-      <% data.header.menu.each_with_index do |item, index| %>
-        <a href="<%= item.last.link %>" class="nav-item <%= 'menu-active' if index == 0 %>"><%= item.last.name %></a>
-      <% end %>
-    </div>
-
-  </div>
-
-  <div class="container">
-
-    <h1 class="heading"><%= data.header.heading %></h1>
-
-    <div class="button-group">
-      <a href="<%= data.header.community.link %>" target="_blank" class="button community-button"><%= data.header.community.name %></a>
-
-      <a href="<%= data.header.whitepaper.link %>"
-         target="_blank" class="button whitepaper-button">
-        <%= data.header.whitepaper.name %>
-      </a>
-    </div>
-
-  </div>
+<header class="main-header header">
+  <%= partial "main_header" %>
 </header>
-
