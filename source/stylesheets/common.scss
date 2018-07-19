@@ -47,7 +47,7 @@ body {
   line-height: 120%;
   font-weight: 600;
   text-align: left;
-  margin: 20px .67em 8px .67em;
+  margin: 20px .67em 8px 0;
 }
 
 .hr-line {
@@ -59,6 +59,10 @@ body {
   background-image: -webkit-linear-gradient(270deg, #36cc92, #36cc92);
   background-image: linear-gradient(180deg, #36cc92, #36cc92);
   text-align: left;
+}
+
+.hr-line-left {
+  margin-left: 0;
 }
 
 @media (max-width: 991px) {

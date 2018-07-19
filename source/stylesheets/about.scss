@@ -1,0 +1,24 @@
+.core-about {
+  margin-top: 50px;
+  margin-bottom: 70px;
+
+  .content-text {
+    font-family: Inconsolata, monospace;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .heading-section.heading-inner {
+    font-size: 32px;
+    text-align: left;
+  }
+
+
+
+  @media (max-width: 479px) {
+    margin-top: 30px;
+  }
+
+}
+
