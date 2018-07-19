@@ -1,0 +1,11 @@
+name: "Strategic Partners"
+
+items:
+  cmb:
+    image_path: "partners/cmb.png"
+    link: "http://english.cmbchina.com"
+
+  cryptape:
+    image_path: "partners/cryptape.png"
+    link: "https://www.cryptape.com/#/"
+

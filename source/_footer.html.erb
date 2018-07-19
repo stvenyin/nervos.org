@@ -3,7 +3,7 @@
     <div class="row clearfix">
       <div class="clearfix col">
 
-        <img src="<%= image_path('nervos_logo.png') %>" width="149" srcset="<%= image_path('nervos_logo_p_500.png') %> 500w, <%= image_path('nervos_logo_p_800.png') %> 800w, <%= image_path('nervos_logo_p_1080.png') %> 1080w, <%= image_path('nervos_logo_p_1520.png') %> 1520w"
+        <img src="<%= image_path('nervos_logo.png') %>" width="149" srcset="<%= parse_srcset_from_data(data.header.logo.srcset) %>"
              sizes="(max-width: 479px) 100vw, 141px" class="logo">
 
         <p class="footer-text">
