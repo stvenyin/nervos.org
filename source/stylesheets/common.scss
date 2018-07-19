@@ -20,7 +20,7 @@ body {
   color: #333
 }
 
-.w-clearfix, .clearfix {
+.clearfix {
   &:before, &:after {
     content: " ";
     display: table;
