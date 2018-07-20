@@ -17,6 +17,10 @@ page '/*.txt', layout: false
 # use: https://github.com/middleman/middleman-livereload
 activate :livereload
 
+# activate :i18n
+
+activate :i18n, :langs => [:en, :"zh-CN"]
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
@@ -41,7 +45,9 @@ activate :livereload
 #   end
 # end
 require "lib/image_helpers"
+require "lib/i18n_helpers"
 helpers ImageHelpers
+helpers I18nHelpers
 
 
 # Build-specific configuration
