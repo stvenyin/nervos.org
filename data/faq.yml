@@ -1,0 +1,78 @@
+items:
+  -
+    title: "What is Nervos?"
+    content: "Nervos is a network of scaleable and interoperable blockchains built on top of an open network - which we call
+                          the Common Knowledge Base (CKB). CKB is built as a security anchor for all blockchains (and layer 2 protocols
+                          such as state channels) in the Nervos network. It enables enterprises and application developers to decide
+                          what goes into the blockchain."
+
+  -
+    title: "How do you compare Nervos with other dApp platforms such as Ethereum, EOS and Cardano?"
+    content: "Nervos is a network of interoperable protocols instead of a single blockchain, as commonly in other platforms.
+                          The public blockchain (the Nervos CKB) is just one of many components of the network and plays a limited role
+                          to provide decentralization and security. The entire Nervos Network together serves as the platform for dApps
+                          and protocols."
+
+  -
+    title: "From a technical standpoint, what makes the design of Nervos unique?"
+    content: "The overall design of Nervos aims to use a layered approach to balance the different tradeoffs of a decentralized
+                          system. The Nervos CKB is a public chain designed to provide the most data abstraction power, broadest consensus,
+                          and strongest security, without sacrificing decentralization. The Nervos AppChains are optimized for expressiveness,
+                          performance, finality and throughput. By separating those concerns, we're able to design specific economics
+                          models for each layer to best optimize for their roles in the system. The more modular and specialized design
+                          also allows Nervos to evolve quicker than monolithic systems."
+
+  -
+    title: "How is Nervos different from other projects aiming to solve the scalability problem?"
+    content: "There are quite a few upcoming projects that focus on more efficient consensus algorithms to achieve higher transaction
+                          per second (TPS). Consensus algorithms are of critical importance to decentralized systems. However, many consensus
+                          algorithms either sacrifice openness of the decentralized system to achieve throughput, or are very experimental
+                          and need to be proven in production.
+                          <br>
+                          <br>The approach that Nervos takes for scalability is through core architectural design. Nervos separates decentralized
+                          knowledge and computation, to push the heavy lifting off the main public blockchain. The public blockchain
+                          can focus on the common knowledge that needs global consensus and provide security to Nervos AppChains."
+
+  -
+    title: "What is the consensus algorithm for Nervos?"
+    content: "The algorithm is a hybrid consensus that combines the best of traditional Byzantine Fault Tolerance (BFT) and
+                          Nakamoto Consensus to give high performance in normal situations and availability when the network partitions.
+                          <br>
+                          <br>Traditional BFT consensus algorithms can achieve throughput and transaction confirmation speed on par with
+                          centralized systems. However, it is difficult for nodes to join or exit freely, and the network's performance
+                          decreases rapidly with the increasing number of consensus participating nodes. Traditional BFT consensus algorithms
+                          have lower tolerance on network faults. When the network partitions, nodes cannot achieve consensus and the
+                          network loses liveliness, making it difficult to meet the availability requirements of permissionless blockchains.
+                          <br>
+                          <br>The Nakamoto Consensus, popularized by Bitcoin’s Proof of Work, has excellent openness and availability. Nodes
+                          in the Bitcoin network may join and exit freely with minimal cost, and the network performance remains constant
+                          with more participating nodes. However, its throughput is quite low.
+                          <br>
+                          <br>In Nervos, the team has combined Nakamoto Consensus and traditional BFT consensus algorithms in a secure way
+                          to arrive at a new hybrid consensus algorithm that gives the optimal balance in consistency, availability,
+                          fairness, and operational cost."
+
+  -
+    title: "What's the use of Nervos native tokens?"
+    content: "The Nervos native tokens are used to bond with storage units to store common knowledge in the blockchain. Users
+                          pay the storage cost with the token's liquidity, so the cost scales to both space (the size of the knowledge
+                          that needs to be saved) and time (the duration that the knowledge needs to be saved) and is better aligned
+                          with the ongoing preservation cost of knowledge."
+
+  -
+    title: "What is the Nervos value proposition to protocol developers?"
+    content: 'For protocol developers, the Nervos CKB offers a versatile settlement engine with features such as built-in cryptographic
+                          primitives and "just enough" support for validations. It will be more expressive and efficient as a validation/settlement
+                          engine and less likely to introduce bugs than a general purpose Ethereum smart contract platform.'
+
+  -
+    title: "What is the roadmap and timeline for Nervos development?"
+    content: "Engineering started in January 2018. We will release the Nervos appchain by Q3 2018, along with a blockchain
+                          browser Microscope and dApp wallet Neuron. Our testnet is estimated to be ready in Q4 2018 and mainnet in Q2
+                          2019."
+
+  -
+    title: "What coding language does it use to build on top of Nervos?"
+    content: "Developers can use any language they would like to create applications on Nervos."
+
+
