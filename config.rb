@@ -59,6 +59,7 @@ configure :build do
   activate :cache_buster
 
   # Use relative URLs
+  set :relative_links, true
   activate :relative_assets
 
   # Gzip HTML, CSS, and JavaScript

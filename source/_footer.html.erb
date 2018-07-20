@@ -1,7 +1,7 @@
 <footer>
-  <div class="container">
-    <div class="row clearfix">
-      <div class="clearfix col">
+  <div class="n-container">
+    <div class="n-row clearfix">
+      <div class="clearfix n-col">
 
         <img src="<%= image_path('nervos_logo.png') %>" width="149" srcset="<%= parse_srcset_from_data(data.header.logo.srcset) %>"
              sizes="(max-width: 479px) 100vw, 141px" class="logo">
@@ -12,7 +12,7 @@
       </div>
 
       <% data.footer.infos.each do |_name, info| %>
-        <div class="col">
+        <div class="n-col">
           <h1 class="heading-section heading-footer"><%= info.name %></h1>
 
           <% info.items.each do |_item_name, item| %>

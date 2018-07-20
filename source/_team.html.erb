@@ -1,14 +1,14 @@
 <div id="team" class="team">
-  <div class="container">
+  <div class="n-container">
     <h1 class="heading-section">Nervos Team</h1>
     <div class="hr-line"></div>
     <div class="members">
 
       <% data.team.each_slice(3).to_a.each_with_index do |row| %>
-        <div class="row clearfix">
+        <div class="n-row clearfix">
           <% row.each_with_index do |person, index| %>
             <% property = person[1] %>
-            <div class="<%= 'main-col' if index % 3 == 0 %> col">
+            <div class="<%= 'main-col' if index % 3 == 0 %> n-col">
               <div class="img-team">
                 <img src="<%= image_path("team/" + property.image_name) %>" width="140" height="140"
                      sizes="(max-width: 479px) 100vw, 140px">
