@@ -4,12 +4,8 @@
 
 @import "font";
 @import "common";
-@import "full_header";
-@import "header";
-@import "team";
-@import "partner";
-@import "subscription";
-@import "footer";
+
+@import "shared/index";
 
 @import "about";
 @import "career";

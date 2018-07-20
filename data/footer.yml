@@ -30,19 +30,20 @@ infos:
     items:
       about:
         name: ". About"
-        link: "http://nervos.org/about"
+        link: "/about.html"
       careers:
         name: ". Careers"
-        link: "http://nervos.org/career"
+        link: "/career.html"
       interest:
         name: ". Interest"
-        link: "http://nervos.org/interest"
+        link: "/interest.html"
       contact:
         name: ". Contact"
-        link: "http://nervos.org/contact"
+        link: "/contact.html"
       faq:
         name: ". FAQ"
-        link: "http://nervos.org/faq"
+        link: "/faq.html"
+
 
 rights: "© 2017 - 2018 Nervos is a project of the Nervos Foundation. All Rights Reserved."
 
