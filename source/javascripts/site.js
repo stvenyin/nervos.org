@@ -22,4 +22,51 @@ document.addEventListener("DOMContentLoaded", function() {
       })
     })(i);
   }
+
+  // email form
+  $(".submit-button").click(function (e) {
+    e.preventDefault();
+    var submitButton = $(".submit-button");
+    var originSubmit = submitButton.val();
+    var wait = submitButton.data("wait");
+    submitButton.val(wait);
+    $.ajax({
+      url: 'https://nervos.us18.list-manage.com/subscribe/post-json?u=2ca40f7277e9b778c24f9aaaf&amp;id=afeeb0c7e3&c=?',
+      type: 'GET',
+      cache: false,
+      data: {
+        u: "2ca40f7277e9b778c24f9aaaf",
+        id: "afeeb0c7e3",
+        MERGE0: $(".email-field").val()
+      },
+      dataType: 'json',
+      contentType: "application/json; charset=utf-8",
+      processData: false,
+    }).done((res) => {
+      submitButton.val(originSubmit);
+      if (res.result === "error") {
+        handleError()
+      } else {
+        handleSuccess()
+      }
+    }).fail((res) => {
+      submitButton.val(originSubmit);
+      handleError()
+    });
+  });
+
+  $(".form-fail").click(function (e) {
+    $(".form-fail").css({display: "none"});
+    $(".form").css({display: "block"});
+  });
+  
+  function handleSuccess() {
+    $(".form").css({display: "none"});
+    $(".form-done").css({display: "block"});
+  }
+  
+  function handleError() {
+    $(".form").css({display: "none"});
+    $(".form-fail").css({display: "block"});
+  }
 });
