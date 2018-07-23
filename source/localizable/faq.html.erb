@@ -6,14 +6,13 @@ title: "FAQ"
 
 <div class="core-feature faq">
   <div class="n-container">
-    <h1 class="heading-section heading-inner">FAQ</h1>
+    <h1 class="heading-section heading-inner"><%= t_data.faq.header %></h1>
     <div class="hr-line hr-line-left"></div>
     <div class="contact-page">
 
-      <% data.faq.items.each do |item| %>
+      <% t_data.faq.items.each do |item| %>
         <div data-delay="3" class="n-dropdown">
           <div class="clearfix n-dropdown-toggle" data-ix="dropdown">
-<!--            <div class="n-icon-dropdown-toggle"></div>-->
             <img src="<%= image_path("icons/down.svg") %>" class="n-icon-dropdown-toggle" />
             <div>
               <strong class="heading-faq"><%= item.title %></strong>

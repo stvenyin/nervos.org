@@ -2,7 +2,7 @@
   <div class="n-container">
 
     <div class="advisors-section">
-      <h1 class="heading-section"><%= data.partner.name %></h1>
+      <h1 class="heading-section"><%= t_data.partner.name %></h1>
       <div class="hr-line"></div>
     </div>
 
@@ -10,14 +10,14 @@
       <div class="partner-row clearfix">
 
         <div class="column clearfix">
-          <a href="<%= data.partner.items.cmb.link %>" target="_blank" class="link-block inline-block">
-            <img src="<%= image_path(data.partner.items.cmb.image_path) %>" class="left-image">
+          <a href="<%= t_data.partner.items.cmb.link %>" target="_blank" class="link-block inline-block">
+            <img src="<%= image_path(t_data.partner.items.cmb.image_path) %>" class="left-image">
           </a>
         </div>
 
         <div class="column">
-          <a href="<%= data.partner.items.cryptape.link %>" target="_blank" class="inline-block">
-            <img src="<%= image_path(data.partner.items.cryptape.image_path) %>" class="right-image">
+          <a href="<%= t_data.partner.items.cryptape.link %>" target="_blank" class="inline-block">
+            <img src="<%= image_path(t_data.partner.items.cryptape.image_path) %>" class="right-image">
           </a>
         </div>
 

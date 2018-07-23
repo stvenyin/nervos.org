@@ -4,7 +4,7 @@
     <div class="hr-line hr-center"></div>
     <div class="main-core">
 
-      <% data.investors.items.each do |investor| %>
+      <% t_data.investors.items.each do |investor| %>
         <a href="<%= investor.link %>" target="_blank" class="investor">
           <img src='<%= image_path("investors/#{investor.img}.png") %>'>
         </a>

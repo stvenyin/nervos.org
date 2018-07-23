@@ -3,15 +3,15 @@
     <div class="n-row clearfix">
       <div class="clearfix n-col">
 
-        <img src="<%= image_path('nervos_logo.png') %>" width="149" srcset="<%= parse_srcset_from_data(data.header.logo.srcset) %>"
+        <img src="<%= image_path('nervos_logo.png') %>" width="149" srcset="<%= parse_srcset_from_data(t_data.header.logo.srcset) %>"
              sizes="(max-width: 479px) 100vw, 141px" class="logo">
 
         <p class="footer-text">
-          <%= data.footer.content_text %>
+          <%= t_data.footer.content_text %>
         </p>
       </div>
 
-      <% data.footer.infos.each do |_name, info| %>
+      <% t_data.footer.infos.each do |_name, info| %>
         <div class="n-col">
           <h1 class="heading-section heading-footer"><%= info.name %></h1>
 
@@ -26,6 +26,6 @@
 
     </div>
 
-    <p class="rights"><%= data.footer.rights %></p>
+    <p class="rights"><%= t_data.footer.rights %></p>
   </div>
 </footer>

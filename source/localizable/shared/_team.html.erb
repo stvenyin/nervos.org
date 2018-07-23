@@ -4,7 +4,7 @@
     <div class="hr-line"></div>
     <div class="members">
 
-      <% data.team.each_slice(3).to_a.each_with_index do |row| %>
+      <% t_data.team.each_slice(3).to_a.each_with_index do |row| %>
         <div class="n-row clearfix">
           <% row.each_with_index do |person, index| %>
             <% property = person[1] %>

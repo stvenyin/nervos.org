@@ -19,7 +19,8 @@ activate :livereload
 
 # activate :i18n
 
-activate :i18n, :langs => [:en, :"zh-CN"]
+activate :i18n, :langs => [:en]
+# activate :i18n, :langs => [:en, :"zh-CN"]
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'

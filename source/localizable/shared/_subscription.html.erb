@@ -3,7 +3,7 @@
     <div class="subscription-block clearfix">
 
       <a href="/partner_with_us.html" class="partner-button">
-        PARTNER WITH US
+        <%= t_data.subscription.partner_button %>
       </a>
 
       <div class="form-block clearfix">
@@ -14,10 +14,10 @@
           <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button">
         </form>
         <div class="form-done">
-          <div>Thank you! Your submission has been received!</div>
+          <div><%= t_data.subscription.form_done %></div>
         </div>
         <div class="form-fail">
-          <div>Oops! Something went wrong while submitting the form.</div>
+          <div><%= t_data.subscription.form_fail %></div>
         </div>
       </div>
     </div>
