@@ -69,4 +69,35 @@ document.addEventListener("DOMContentLoaded", function() {
     $(".form").css({display: "none"});
     $(".form-fail").css({display: "block"});
   }
+
+
+  var bindFadeinup = function (e) {
+    var max = window.innerHeight
+    var min = 0
+    var cls = e.className
+    e.className = 'fadeinupBefore animation ' + cls
+
+    var func = function () {
+      var position = e.getBoundingClientRect()
+      var top = position.top
+      var bottom = position.bottom
+      if (top < max && bottom > min) {
+        console.log("func")
+        e.className = 'fadeinup animation ' + cls
+        window.removeEventListener("scroll", func)
+      }
+    }
+    window.addEventListener("scroll", func)
+  }
+
+
+  $('.investor').each(function (i) {
+    bindFadeinup(this);
+  });
+
+  $(".img-team").each(function (i) {
+    bindFadeinup(this)
+  })
+
 });
+

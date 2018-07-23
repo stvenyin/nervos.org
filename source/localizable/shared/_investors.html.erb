@@ -5,7 +5,7 @@
     <div class="main-core">
 
       <% data.investors.items.each do |investor| %>
-        <a href="<%= investor.link %>" target="_blank" class="fadeinupBefore animation investor">
+        <a href="<%= investor.link %>" target="_blank" class="investor">
           <img src='<%= image_path("investors/#{investor.img}.png") %>'>
         </a>
       <% end %>
