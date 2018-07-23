@@ -16,7 +16,7 @@
           <h1 class="heading-section heading-footer"><%= info.name %></h1>
 
           <% info.items.each do |_item_name, item| %>
-            <a href="<%= item.link %>" target="_blank" class="nav-item nav-footer">
+            <a href="<%= item.link %>" target="<%= item.blank == false ? '' : '_blank' %>" class="nav-item nav-footer">
               <%= item.name %>
             </a>
           <% end %>

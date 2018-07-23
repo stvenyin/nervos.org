@@ -31,18 +31,23 @@ infos:
       about:
         name: ". About"
         link: "/about.html"
+        blank: false
       careers:
         name: ". Careers"
         link: "/career.html"
+        blank: false
       interest:
         name: ". Interest"
         link: "/interest.html"
+        blank: false
       contact:
         name: ". Contact"
         link: "/contact.html"
+        blank: false
       faq:
         name: ". FAQ"
         link: "/faq.html"
+        blank: false
 
 
 rights: "© 2017 - 2018 Nervos is a project of the Nervos Foundation. All Rights Reserved."
