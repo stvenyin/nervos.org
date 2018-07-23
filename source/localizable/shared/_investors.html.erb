@@ -1,0 +1,15 @@
+<div id="investors" class="investors">
+  <div class="n-container">
+    <h1 class="heading-section">Investors</h1>
+    <div class="hr-line hr-center"></div>
+    <div class="main-core">
+
+      <% data.investors.items.each do |investor| %>
+        <a href="<%= investor.link %>" target="_blank" class="fadeinupBefore animation investor">
+          <img src='<%= image_path("investors/#{investor.img}.png") %>'>
+        </a>
+      <% end %>
+
+    </div>
+  </div>
+</div>

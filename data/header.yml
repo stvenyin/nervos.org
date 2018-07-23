@@ -1,13 +1,16 @@
 menu:
   home:
     name: "Home"
-    link: "#"
+    link: "/#"
   team:
     name: "Team"
-    link: "#team"
+    link: "/#team"
+  investors:
+    name: "Investors"
+    link: "/#investors"
   partners:
     name: "Partners"
-    link: "#partner"
+    link: "/#partner"
 
 heading: "Nervos Network"
 
