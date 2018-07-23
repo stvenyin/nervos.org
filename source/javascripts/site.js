@@ -98,5 +98,17 @@ document.addEventListener("DOMContentLoaded", function() {
     bindFadeinup(this)
   })
 
+  if (window.location.pathname === "/") {
+    $(".header-nav .nav-item").click(function (e) {
+      var href = $(this).attr("href");
+      if (href[0] === "/") {
+        href = href.slice(1)
+      }
+      $('html, body').animate({
+        scrollTop: $(href).offset().top
+      }, 1000)
+    })
+  }
+
 });
 
