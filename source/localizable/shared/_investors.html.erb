@@ -5,7 +5,7 @@
     <div class="main-core">
 
       <% t_data.investors.items.each do |investor| %>
-        <a href="<%= investor.link %>" target="_blank" class="investor">
+        <a href="<%= investor.link.blank? ? 'javascript:;' : investor.link %>" target="_blank" class="investor">
           <img src='<%= image_path("investors/#{investor.img}.png") %>'>
         </a>
       <% end %>
