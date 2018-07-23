@@ -6,6 +6,11 @@ header.main-header.header {
   background-image: -webkit-linear-gradient(270deg, #21325e, #21325e);
   background-image: linear-gradient(180deg, #21325e, #21325e);
 
+  .header-nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .menu-active {
     color: #fff;
     font-weight: normal;
