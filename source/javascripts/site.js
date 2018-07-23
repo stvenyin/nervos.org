@@ -82,7 +82,6 @@ document.addEventListener("DOMContentLoaded", function() {
       var top = position.top
       var bottom = position.bottom
       if (top < max && bottom > min) {
-        console.log("func")
         e.className = 'fadeinup animation ' + cls
         window.removeEventListener("scroll", func)
       }
