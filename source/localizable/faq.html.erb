@@ -1,0 +1,32 @@
+---
+title: "FAQ"
+---
+
+<%= partial "shared/header" %>
+
+<div class="core-feature faq">
+  <div class="n-container">
+    <h1 class="heading-section heading-inner"><%= t_data.faq.header %></h1>
+    <div class="hr-line hr-line-left"></div>
+    <div class="contact-page">
+
+      <% t_data.faq.items.each do |item| %>
+        <div data-delay="3" class="n-dropdown">
+          <div class="clearfix n-dropdown-toggle" data-ix="dropdown">
+            <img src="<%= image_path("icons/down.svg") %>" class="n-icon-dropdown-toggle" />
+            <div>
+              <strong class="heading-faq"><%= item.title %></strong>
+            </div>
+          </div>
+          <nav class="n-dropdown-list" data-tx="<%= item.title %>">
+            <p class="content-faq-3"><%= item.content %></p>
+          </nav>
+        </div>
+      <% end %>
+
+    </div>
+  </div>
+</div>
+
+<%= partial "shared/subscription" %>
+<%= partial "shared/footer" %>

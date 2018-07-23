@@ -1,0 +1,55 @@
+infos:
+  documentation:
+    name: "Documentation"
+    items:
+      whitepaper:
+        name: ". Whitepaper"
+        link: "https://github.com/NervosFoundation/binary/tree/master/whitepaper"
+      github:
+        name: ". GitHub"
+        link: "https://github.com/NervosFoundation"
+
+  community:
+    name: "Community"
+    items:
+      telegram:
+        name: ". Telegram"
+        link: "http://t.me/nervosnetwork"
+      twitter:
+        name: ". Twitter"
+        link: "https://twitter.com/nervosnetwork"
+      reddit:
+        name: ". Reddit"
+        link: "https://www.reddit.com/r/NervosNetwork/"
+      blog:
+        name: ". Blog"
+        link: "https://medium.com/nervosnetwork"
+
+  organization:
+    name: "Organization"
+    items:
+      about:
+        name: ". About"
+        link: "/about.html"
+        blank: false
+      careers:
+        name: ". Careers"
+        link: "/career.html"
+        blank: false
+      interest:
+        name: ". Interest"
+        link: "/interest.html"
+        blank: false
+      contact:
+        name: ". Contact"
+        link: "/contact.html"
+        blank: false
+      faq:
+        name: ". FAQ"
+        link: "/faq.html"
+        blank: false
+
+
+rights: "© 2017 - 2018 Nervos is a project of the Nervos Foundation. All Rights Reserved."
+
+content_text: "Nervos is network of scalable and interoperable blockchains built on top of an open network, built for the enterprise."

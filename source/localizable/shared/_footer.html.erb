@@ -1,0 +1,31 @@
+<footer>
+  <div class="n-container">
+    <div class="n-row clearfix">
+      <div class="clearfix n-col">
+
+        <img src="<%= image_path('nervos_logo.png') %>" width="149" srcset="<%= parse_srcset_from_data(t_data.header.logo.srcset) %>"
+             sizes="(max-width: 479px) 100vw, 141px" class="logo">
+
+        <p class="footer-text">
+          <%= t_data.footer.content_text %>
+        </p>
+      </div>
+
+      <% t_data.footer.infos.each do |_name, info| %>
+        <div class="n-col">
+          <h1 class="heading-section heading-footer"><%= info.name %></h1>
+
+          <% info.items.each do |_item_name, item| %>
+            <a href="<%= item.link %>" target="<%= item.blank == false ? '' : '_blank' %>" class="nav-item nav-footer">
+              <%= item.name %>
+            </a>
+          <% end %>
+
+        </div>
+      <% end %>
+
+    </div>
+
+    <p class="rights"><%= t_data.footer.rights %></p>
+  </div>
+</footer>

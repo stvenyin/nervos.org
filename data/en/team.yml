@@ -1,0 +1,153 @@
+jan:
+  name: "Jax Xie"
+  image_name: "jan_xie.png"
+  identity: "Chief Architect &amp; Co-Founder"
+  github: "https://github.com/janx"
+  linkedin: "https://www.linkedin.com/in/janhxie/"
+  desc: "Founder at Cryptape, former researcher &amp; developer at the Ethereum Foundation focused on Casper &amp; Sharding,
+                       co-founder of ethfans.org, and former architect at Peatio.
+                       <br>"
+
+ren_zhang:
+  name: "Ren Zhang"
+  image_name: "ren_zhang.png"
+  identity: "Researcher"
+  github: "https://github.com/nirenzang"
+  linkedin: "https://www.linkedin.com/in/ren-zhang-a9a81717/"
+  desc: "Former researcher at Blockstream focused on Blockchain consensus protocols, security and privacy.Ph.D. from
+                       KU Leuven.
+                       <br>"
+
+terry:
+  name: "Terry Tai"
+  image_name: "terry_tai.png"
+  identity: "Co-Founder"
+  github: "https://github.com/poshboytl"
+  linkedin: "https://www.linkedin.com/in/terrytai/"
+  desc: "Core developer at Yunbi &amp; Peatio,
+                       <br>co-founder of Teahour.fm"
+
+daniel:
+  name: "Daniel Lv"
+  image_name: "daniel_lv.png"
+  identity: "Co-Founder"
+  github: "https://github.com/lgn21st"
+  linkedin: "https://www.linkedin.com/in/daniellv/"
+  desc: "Former CTO of imToken (world’s largest Ethereum wallet), former CTO of Yunbi, and co-founder of ruby-china.org."
+
+kevin:
+  name: "Kevin Wang"
+  image_name: "kevin_wang.png"
+  identity: "Co-Founder"
+  github: "https://github.com/knwang"
+  linkedin: "https://www.linkedin.com/in/kevin-wang-a740001/"
+  desc: "Co-founder at Launch School and software engineer at IBM Silicon Valley Lab."
+
+bo_wang:
+  name: "Bo Wang"
+  image_name: "bo_wang.png"
+  identity: "Product Manager"
+  linkedin: "https://www.linkedin.com/in/%E5%8D%9A-%E7%8E%8B-393243164/"
+  desc: "Chief Product Officer at Cryptape, former Director at the Blockchain Lab of the China Banknote Printing and
+                       Minting Corporation."
+
+rink:
+  name: "Rink Ning"
+  image_name: "rink_ning.png"
+  identity: "Developer"
+  github: "https://github.com/rink1969"
+  linkedin: "https://www.linkedin.com/in/%E5%BF%97%E4%BC%9F-%E5%AE%81-5a4a01b5/"
+  desc: "Chief Architect at Cryptape, former software engineer at Ant Financial and Huawei."
+
+ian:
+  name: "Ian Yang"
+  image_name: "ian_yang.png"
+  identity: "Developer"
+  github: "https://github.com/doitian"
+  linkedin: "http://www.linkedin.com/in/ianyang"
+  desc: "Focus on system design and official client implementation, former CTO at Hooya Game, and former software engineer
+                       at Groupon."
+
+dingwei_zhang:
+  name: "Dingwei Zhang"
+  image_name: "dingwei_zhang.png"
+  identity: "Developer"
+  github: "https://github.com/zhangsoledad"
+  linkedin: "https://www.linkedin.com/in/dingwei-zhang-6759b5a9/"
+  desc: "Blockchain engineer at Cryptape."
+
+yaning_zhang:
+  name: "Yaning Zhang"
+  image_name: "yaning_zhang.png"
+  identity: "Developer"
+  github: "https://github.com/u2"
+  linkedin: "http://www.linkedin.com/in/zhang-yaning-820a171a/"
+  desc: "Architect at Cryptape, former core developer at EthFans.org."
+
+ke_wang:
+  name: "Ke Wang"
+  image_name: "ke_wang.png"
+  identity: "Developer"
+  github: "https://github.com/kilb"
+  linkedin: "http://www.linkedin.com/in/ke-wang-6b8027164"
+  desc: "Software engineer at Cryptape."
+
+quake:
+  name: "Quake Wang"
+  image_name: "quake_wang.png"
+  identity: "Developer"
+  github: "https://github.com/quake"
+  linkedin: "https://www.linkedin.com/in/quakewang"
+  desc: "Over 20 years developing experience, enjoy solving problems with coding."
+
+xiaotie_deng:
+  name: "Xiaotie Deng"
+  image_name: "xiaotie_deng.png"
+  identity: "Research Scientist"
+  link: "https://dblp.uni-trier.de/pers/hd/d/Deng:Xiaotie"
+  linkedin: "https://www.linkedin.com/in/xiaotie-deng-083261a9/"
+  desc: "Xiaotie's research focuses on algorithmic game theory, parallel algorithms, combinatorial optimization. Professor
+                       at Beijing University and ACM Fellow."
+
+qianhong_wu:
+  name: "Qianhong Wu"
+  image_name: "qianhong_wu.png"
+  identity: "Research Scientist"
+  link: "https://dblp.org/pers/hd/w/Wu:Qianhong"
+  linkedin: "https://www.linkedin.com/in/%E5%89%8D%E7%BA%A2-%E4%BC%8D-512579126/"
+  desc: "Qianhong's research focuses on cryptography. Professor at Beihang University."
+
+jane_wu:
+  name: "Jane Wu"
+  image_name: "jane_wu.png"
+  identity: "Marketing &amp; Community"
+  twitter: "https://twitter.com/cryp_TOTO"
+  linkedin: "https://www.linkedin.com/in/hijane/"
+  desc: "Former marketing at Bodhi prediction market, previously journalist at ELLE and Financial Times.."
+  
+toya:
+  name: "Toya"
+  image_name: "toya.png"
+  identity: "Ecosystem Development"
+  twitter: "https://twitter.com/NervosNetwork"
+
+  desc: "Toya worked previously as the executive assistant of Ethereum Foundation. She helped with building EthFans.org,
+                       the largest Chinese Ethereum community."
+
+edith_yeung:
+  name: "Edith Yeung"
+  image_name: "edith_yeung.png"
+  identity: "Advisor"
+  twitter: "https://twitter.com/edithyeung"
+  linkedin: "https://www.linkedin.com/in/edithyeung"
+  desc: "Selected by Inc. Magazine as one of the Silicon Valley investors you must know, Edith Yeung is a partner at
+                       500 Startups, advisor to Dolphin Browser (acquired by CYOU), and founding partner at RightVentures."
+
+chris_sccann:
+  name: "Chris McCann"
+  image_name: "chris_mccann.png"
+  identity: "Advisor"
+  twitter: "https://twitter.com/mccannatron"
+  linkedin: "https://www.linkedin.com/in/mccannatron"
+  desc: "Chris leads the community program at Greylock Partners, former co-founder of StartupDigest (acquired by Techstars),
+                         and early advisor for the Thiel Fellowship &amp; StartX at Stanford University."

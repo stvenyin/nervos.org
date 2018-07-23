@@ -13,6 +13,15 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+# Live reload
+# use: https://github.com/middleman/middleman-livereload
+activate :livereload
+
+# activate :i18n
+
+activate :i18n, :langs => [:en]
+# activate :i18n, :langs => [:en, :"zh-CN"]
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
@@ -36,11 +45,31 @@ page '/*.txt', layout: false
 #     'Helping'
 #   end
 # end
+require "lib/image_helpers"
+require "lib/i18n_helpers"
+helpers ImageHelpers
+helpers I18nHelpers
+
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+
+  # Append a hash to asset urls (make sure to use the url helpers)
+  activate :asset_hash
+
+  # Enable cache buster
+  # see: https://github.com/middleman/middleman-guides/blob/master/source/advanced/improving-cacheability.html.markdown#cache-buster-in-query-string
+  activate :cache_buster
+
+  # Use relative URLs
+  set :relative_links, true
+  activate :relative_assets
+
+  # Gzip HTML, CSS, and JavaScript
+  # see: https://github.com/middleman/middleman-guides/blob/master/source/advanced/file-size-optimization.html.markdown#gzip-text-files
+  activate :gzip
+end
