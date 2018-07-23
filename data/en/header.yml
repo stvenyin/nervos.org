@@ -1,7 +1,7 @@
 menu:
   home:
     name: "Home"
-    link: "/#"
+    link: "/"
   team:
     name: "Team"
     link: "/#team"

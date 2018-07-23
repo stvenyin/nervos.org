@@ -104,6 +104,9 @@ document.addEventListener("DOMContentLoaded", function() {
       if (href[0] === "/") {
         href = href.slice(1)
       }
+      if (href ===  "" || href === "#") {
+        return ;
+      }
       $('html, body').animate({
         scrollTop: $(href).offset().top
       }, 1000)
