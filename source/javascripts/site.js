@@ -42,14 +42,14 @@ document.addEventListener("DOMContentLoaded", function() {
       dataType: 'json',
       contentType: "application/json; charset=utf-8",
       processData: false,
-    }).done((res) => {
+    }).done(function(res) {
       submitButton.val(originSubmit);
       if (res.result === "error") {
         handleError()
       } else {
         handleSuccess()
       }
-    }).fail((res) => {
+    }).fail(function(res) {
       submitButton.val(originSubmit);
       handleError()
     });
