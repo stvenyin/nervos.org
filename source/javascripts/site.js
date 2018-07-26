@@ -30,14 +30,16 @@ document.addEventListener("DOMContentLoaded", function() {
     var originSubmit = submitButton.val();
     var wait = submitButton.data("wait");
     submitButton.val(wait);
+    var email = $(".email-field").val();
+    var url = 'https://nervos.us18.list-manage.com/subscribe/post-json?u=2ca40f7277e9b778c24f9aaaf&amp;id=afeeb0c7e3&c=?&MERGE0=' + email;
     $.ajax({
-      url: 'https://nervos.us18.list-manage.com/subscribe/post-json?u=2ca40f7277e9b778c24f9aaaf&amp;id=afeeb0c7e3&c=?',
+      url: url,
       type: 'GET',
       cache: false,
       data: {
         u: "2ca40f7277e9b778c24f9aaaf",
         id: "afeeb0c7e3",
-        MERGE0: $(".email-field").val()
+        MERGE0: email,
       },
       dataType: 'json',
       contentType: "application/json; charset=utf-8",
