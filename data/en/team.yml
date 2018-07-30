@@ -117,6 +117,15 @@ qianhong_wu:
   linkedin: "https://www.linkedin.com/in/%E5%89%8D%E7%BA%A2-%E4%BC%8D-512579126/"
   desc: "Qianhong's research focuses on cryptography. Professor at Beihang University."
 
+jiasun_li:
+  name: "Jiasun Li"
+  image_name: "jiasun_li.png"
+  identity: "Research Scientist"
+  linkedin: "https://www.linkedin.com/in/jiasunli/"
+  desc: "Lijiasun’s research focuses on Cryptoeconomics.
+Assistant Professor of Finance at George Mason University School of Business."
+
+
 jane_wu:
   name: "Jane Wu"
   image_name: "jane_wu.png"
