@@ -11,3 +11,5 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem "middleman-livereload"
 
 gem 'bootstrap', '~> 4.1', '>= 4.1.1'
+
+gem 'rake', '~> 12.3', '>= 12.3.1'
