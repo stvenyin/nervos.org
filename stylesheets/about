@@ -1,0 +1,44 @@
+.core-feature {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  min-height: 33vh; }
+  .core-feature .content-text {
+    font-family: Inconsolata, monospace;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px; }
+  .core-feature .heading-section {
+    font-size: 32px; }
+  .core-feature .contact-page {
+    margin: 0 0 15px; }
+    .core-feature .contact-page .col {
+      padding-right: 0;
+      padding-left: 0;
+      width: 25%;
+      position: relative;
+      float: left;
+      min-height: 1px; }
+    .core-feature .contact-page .heading-car {
+      margin-bottom: 10px;
+      float: left;
+      font-family: Inconsolata, monospace;
+      font-size: 18px;
+      line-height: 150%;
+      display: block;
+      width: 100%;
+      margin-top: 0;
+      text-align: left; }
+    .core-feature .contact-page h1 {
+      font-weight: bold;
+      margin-bottom: 10px; }
+  @media (max-width: 767px) {
+    .core-feature .contact-page .row {
+      margin-left: 0;
+      margin-right: 0; }
+    .core-feature .contact-page .col {
+      width: 100%;
+      left: auto;
+      right: auto; } }
+  @media (max-width: 479px) {
+    .core-feature {
+      margin-top: 30px; } }
