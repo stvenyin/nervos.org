@@ -1,85 +1,86 @@
+# investor logos will sort by img name
 items:
   -
-    link: https://www.1confirmation.com/
-    img: 1confirmation
+    link: "https://www.1confirmation.com/"
+    img: "1confirmation"
   -
-    link: http://1kx.network/
-    img: 1kx
+    link: "http://1kx.network/"
+    img: "1kx"
   -
-    link: ''
-    img: alternity
+    link: ""
+    img: "alternity"
   -
-    link: https://www.amberaigroup.com/
-    img: amber
+    link: "https://www.amberaigroup.com/"
+    img: "amber"
   -
-    link: http://blockchain.capital/
-    img: blockchain
+    link: "http://blockchain.capital/"
+    img: "blockchain"
   -
-    link: https://breyercapital.com/
-    img: breyer
+    link: "https://breyercapital.com/"
+    img: "breyer"
   -
-    link: https://bixin.com/
-    img: bixin
+    link: "https://bixin.com/"
+    img: "bixin"
   -
-    link: http://www.ceyuan.com/
-    img: ceyuan
+    link: "http://www.ceyuan.com/"
+    img: "ceyuan"
   -
-    link: https://dekrypt.capital/
-    img: dekrypt
+    link: "https://dekrypt.capital/"
+    img: "dekrypt"
   -
-    link: http://www.distributedglobal.com/
-    img: distributed
+    link: "http://www.distributedglobal.com/"
+    img: "distributed"
   -
-    link: https://www.ddc.fund/
-    img: ddc
+    link: "https://www.ddc.fund/"
+    img: "ddc"
   -
-    link: https://www.fbg.capital/
-    img: fbg
+    link: "https://www.fbg.capital/"
+    img: "fbg"
   -
-    link: https://www.freesvc.com/
-    img: ff
+    link: "https://www.freesvc.com/"
+    img: "frees"
   -
-    link: https://www.huobi.com/
-    img: huobi
+    link: "https://www.huobi.com/"
+    img: "huobi"
   -
-    link: https://token.im/
-    img: imtoken
+    link: "https://token.im/"
+    img: "imtoken"
   -
-    link: https://kindredvc.com/
-    img: kindred
+    link: "https://kindredvc.com/"
+    img: "kindred"
   -
-    link: https://www.sequoiacap.com/china/en/
-    img: sequoia
+    link: "https://www.sequoiacap.com/china/en/"
+    img: "sequoia"
   -
-    link: http://www.unityvc.com/
-    img: unity
+    link: "http://www.unityvc.com/"
+    img: "unity"
   -
-    link: https://www.matrixpartners.com.cn/index.php/zh/
-    img: matrix
+    link: "https://www.matrixpartners.com.cn/index.php/zh/"
+    img: "matrix"
   -
-    link: https://multicoin.capital/
-    img: multi
+    link: "https://multicoin.capital/"
+    img: "multi"
   -
-    link: https://www.passportcapital.com/
-    img: passport
+    link: "https://www.passportcapital.com/"
+    img: "passport"
   -
-    link: https://polychain.capital/
-    img: polychain
+    link: "https://polychain.capital/"
+    img: "polychain"
   -
-    link: ''
-    img: ques
+    link: ""
+    img: "ques"
   -
-    link: http://www.vycapital.com/
-    img: vy
+    link: "http://www.vycapital.com/"
+    img: "vy"
   -
-    link: http://www.wxblockchain.com/
-    img: wanxiang
+    link: "http://www.wxblockchain.com/"
+    img: "wanxiang"
   -
-    link: https://eth.sparkpool.com/
-    img: spark
+    link: "https://eth.sparkpool.com/"
+    img: "spark"
   -
-    link: https://www.ipaynow.cn/
-    img: xianzai
+    link: "https://www.ipaynow.cn/"
+    img: "xianzai"
   -
-    link: https://zk.capital/
-    img: zk
+    link: "https://zk.capital/"
+    img: "zk"
