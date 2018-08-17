@@ -1,0 +1,32 @@
+<div id='id-events'>
+  <div class='n-container '>
+
+    <div class='header-container'>
+      <h1 class="heading-section"><%= t_data.events.header.title%></h1>
+      <div class="hr-line hr-center"></div>
+      <div class='header-text'><%= t_data.events.header.text%></div>
+    </div>
+
+    <div class='events-container'>
+      <% split_event_list_all.each do |event| %>
+        <a class="event-container <%= event.className %>" target='_blank' href=<%= event.link %></a>
+          <div class='event-name'>
+          <%= event.name %>
+          </div>
+          <div class='event-info'>
+          <span class='event-address'>
+            <%= event.address %>
+          </span>
+          <span class='event-time'>
+            <%= event.time %>
+          </span>
+          </div>
+        </a>
+      <% end %>
+    </div>
+
+    <div class='events-toggle'>
+      <img src="<%= image_path("icons/down.png") %>" class="events-toggle-img" />
+    </div>
+  </div>
+</div>

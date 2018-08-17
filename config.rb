@@ -46,8 +46,10 @@ activate :i18n, :langs => [:en]
 #   end
 # end
 require "lib/image_helpers"
+require "lib/events_helpers"
 require "lib/i18n_helpers"
 helpers ImageHelpers
+helpers EventsHelpers
 helpers I18nHelpers
 
 
