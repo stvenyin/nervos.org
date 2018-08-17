@@ -1,0 +1,26 @@
+// This is where it all goes :)
+
+document.addEventListener('DOMContentLoaded', function() {
+  var eventsContainer = document.querySelector('#id-events .events-container')
+  var toggle = document.querySelector('#id-events .events-toggle-img')
+  var eventlist = document.querySelectorAll('#id-events .event-container.not-active')
+  var keyevent = eventlist[2]
+  var bottom1 = eventsContainer.getBoundingClientRect().bottom
+  var bottom2 = keyevent.getBoundingClientRect().bottom
+  var hComplete = eventsContainer.getBoundingClientRect().height
+  var hShrink = hComplete - (bottom1 - bottom2)
+
+  eventsContainer.style.height = hShrink.toString() + 'px'
+
+  toggle.addEventListener('click', function() {
+    var eventsContainer = document.querySelector('#id-events .events-container')
+    var h = eventsContainer.getBoundingClientRect().height
+    if (h == hComplete) {
+      eventsContainer.style.height = hShrink.toString() + 'px'
+      toggle.style.transform = 'rotate(0deg)'
+    } else {
+      eventsContainer.style.height = hComplete.toString() + 'px'
+      toggle.style.transform = 'rotate(180deg)'
+    }
+  })
+})
