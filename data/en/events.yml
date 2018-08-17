@@ -1,0 +1,41 @@
+header:
+  title: "Let's Meet Nervos!"
+  text: "Come meet us and the Nervos at the following events—hope to see you there!"
+
+events:
+  - name: "BLC-Summit 2018"
+    address: "Hyatt Regency · Shanghai Wujiaochang"                                       
+    time: "Aug.24-25 2018"
+    t: "2018-8-24"
+    link: "https://mp.weixin.qq.com/s?__biz=MzUzNzg4NTAzOA==&mid=2247483921&idx=2&sn=2f255b0e4e96c571026ed7a26ac484e8&chksm=fae16210cd96eb06ceee4d0c97084ca241d4b0bb2acccbbc9f78d060460ed54ed2e592797640#rd"
+    
+  - name: "Opensource Innovation Meetup"
+    address: "Chengdu Sichuan" 
+    time: "Aug.18 2018"
+    t: "2018-8-18"
+    link: "https://mp.weixin.qq.com/s?__biz=MzUzNzg4NTAzOA==&mid=2247483921&idx=2&sn=2f255b0e4e96c571026ed7a26ac484e8&chksm=fae16210cd96eb06ceee4d0c97084ca241d4b0bb2acccbbc9f78d060460ed54ed2e592797640#rd"
+
+
+  - name: "Blockchain Demo Day"
+    address: "2 Water's Park Drive.San Mateo. CA"
+    time: "Aug.11 2018"
+    t: "2018-8-11"
+    link: "https://mp.weixin.qq.com/s?__biz=MzUzNzg4NTAzOA==&mid=2247483921&idx=2&sn=2f255b0e4e96c571026ed7a26ac484e8&chksm=fae16210cd96eb06ceee4d0c97084ca241d4b0bb2acccbbc9f78d060460ed54ed2e592797640#rd"
+    
+  - name: "Nervos Meetup No.3"
+    address: "E world, Zhongguancun, Beijing" 
+    time: "Aug.4 2018"
+    t: "2018-8-4"
+    link: "https://mp.weixin.qq.com/s?__biz=MzUzNzg4NTAzOA==&mid=2247483841&idx=2&sn=4c6de6363b3b31c08446d57ab67e42e5&chksm=fae161c0cd96e8d63eb10261bb1d96dd9dd27922e3426eb21f85b8da7daa38201d1b9d74b985#rd"
+    
+  - name: "Nervos Meetup No.2"
+    address: "Lu Xiang Yuan,Shanghai" 
+    time: "Jul.28 2018"
+    t: "2018-7-28"
+    link: "https://mp.weixin.qq.com/s?__biz=MzUzNzg4NTAzOA==&mid=2247483841&idx=2&sn=4c6de6363b3b31c08446d57ab67e42e5&chksm=fae161c0cd96e8d63eb10261bb1d96dd9dd27922e3426eb21f85b8da7daa38201d1b9d74b985#rd"
+    
+  - name: "Nervos Meetup No.1"
+    address: "Hangzhou "                                       
+    time: "Jul.21 2018"
+    t: "2018-7-21"
+    link: "https://mp.weixin.qq.com/s?__biz=MzUzNzg4NTAzOA==&mid=2247483841&idx=2&sn=4c6de6363b3b31c08446d57ab67e42e5&chksm=fae161c0cd96e8d63eb10261bb1d96dd9dd27922e3426eb21f85b8da7daa38201d1b9d74b985#rd"
