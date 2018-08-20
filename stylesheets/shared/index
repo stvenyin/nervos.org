@@ -550,3 +550,50 @@ footer {
     transition: 0.3s; }
   .notify .close-button:hover {
     color: black; }
+
+#id-events {
+  text-align: center;
+  margin-bottom: 173px; }
+  #id-events .header-container {
+    margin-bottom: 42px; }
+  #id-events .header-text {
+    margin: auto;
+    width: 600px;
+    max-width: 70%;
+    font-family: PingFangSC;
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: center;
+    color: #333333; }
+  #id-events .events-container {
+    margin: auto;
+    width: 960px;
+    max-width: 95%;
+    margin-bottom: 49px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s; }
+  #id-events .event-container {
+    display: block;
+    font-size: 30px;
+    line-height: 1.38;
+    text-align: left;
+    color: #333333;
+    border-bottom: 1px solid #eee;
+    padding: 41px 0 15px; }
+  #id-events .event-info {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2.31;
+    color: #999999; }
+  #id-events .event-time {
+    float: right; }
+  #id-events .event-container.active {
+    color: #40cb93; }
+  #id-events .events-toggle {
+    position: relative; }
+  #id-events .events-toggle-img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%) rotate(0deg);
+    transition: 0.5s; }
