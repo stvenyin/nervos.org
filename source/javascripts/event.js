@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var h = eventsContainer.getBoundingClientRect().height
     if (h == hComplete) {
       eventsContainer.style.height = hShrink.toString() + 'px'
-      toggle.style.transform = 'rotate(0deg)'
+      toggle.style.transform = 'translate(-50%) rotate(0deg)'
     } else {
       eventsContainer.style.height = hComplete.toString() + 'px'
-      toggle.style.transform = 'rotate(180deg)'
+      toggle.style.transform = 'translate(-50%) rotate(180deg)'
     }
   })
 })
