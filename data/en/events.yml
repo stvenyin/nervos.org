@@ -3,18 +3,29 @@ header:
   text: "Come meet us and the Nervos at the following events—hope to see you there!"
 
 events:
+  - name: "Nervos Meetup No.4-ShenZhen"
+    address: "ShenZhen"                                       
+    time: "Aug.25 2018"
+    t: "2018-8-25"
+    link: "https://mp.weixin.qq.com/s?__biz=MzUzNzg4NTAzOA==&mid=2247483976&idx=2&sn=1283173b158619366de1b86e1a2b8e8f&chksm=fae16249cd96eb5faaaed3eb9f63f36b275bb5c1341192eeb6338a44e3c5f0e3ace1a8f71448&token=38756644&lang=zh_CN#rd"
+
   - name: "BLC-Summit 2018"
     address: "Hyatt Regency · Shanghai Wujiaochang"                                       
     time: "Aug.24-25 2018"
     t: "2018-8-24"
     link: "https://mp.weixin.qq.com/s?__biz=MzUzNzg4NTAzOA==&mid=2247483921&idx=2&sn=2f255b0e4e96c571026ed7a26ac484e8&chksm=fae16210cd96eb06ceee4d0c97084ca241d4b0bb2acccbbc9f78d060460ed54ed2e592797640#rd"
     
+  - name: "Nervos HZ Dev Meetup"
+    address: "Hangzhou" 
+    time: "Aug.22 2018"
+    t: "2018-8-22"
+    link: "https://mp.weixin.qq.com/s?__biz=MzUzNzg4NTAzOA==&mid=2247483969&idx=1&sn=f8d2dad11958dbd2efcd555388d492df&chksm=fae16240cd96eb56e00ffb4086a31392018dc5d8374247ba3ab16998c1659dd9cd3c3680aec5&token=38756644&lang=zh_CN#rd"
+
   - name: "Opensource Innovation Meetup"
     address: "Chengdu Sichuan" 
     time: "Aug.18 2018"
     t: "2018-8-18"
     link: "https://mp.weixin.qq.com/s?__biz=MzUzNzg4NTAzOA==&mid=2247483921&idx=2&sn=2f255b0e4e96c571026ed7a26ac484e8&chksm=fae16210cd96eb06ceee4d0c97084ca241d4b0bb2acccbbc9f78d060460ed54ed2e592797640#rd"
-
 
   - name: "Blockchain Demo Day"
     address: "2 Water's Park Drive.San Mateo. CA"
