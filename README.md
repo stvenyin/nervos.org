@@ -6,19 +6,19 @@ Code of [nervos.org](https://www.nervos.org/)
 ## Init Project
 
 ```bash
-$ bundle
+bundle
 ```
 
 ## Run project
 
 ```bash
-$ bundle exec middleman server
+bundle exec middleman server
 ```
 
 ## Build
 
 ```bash
-$ bundle exec middleman build
+bundle exec middleman build
 ```
 
 you can upload `build` directory to sever and serve it.
@@ -26,7 +26,7 @@ you can upload `build` directory to sever and serve it.
 ## Deploy
 
 ```bash
-$ build exec rake build
+build exec rake build
 ```
 
 this command will push `build` dir to `build` branch, you can server this branch files.
