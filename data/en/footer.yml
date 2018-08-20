@@ -27,6 +27,9 @@ infos:
       blog:
         name: ". Blog"
         link: "https://medium.com/nervosnetwork"
+      blog:
+        name: ". Events"
+        link: "/#events"
 
   organization:
     name: "Organization"
