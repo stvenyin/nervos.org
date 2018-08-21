@@ -48,9 +48,11 @@ activate :i18n, :langs => [:en]
 require "lib/image_helpers"
 require "lib/events_helpers"
 require "lib/i18n_helpers"
+require "lib/social_helpers"
 helpers ImageHelpers
 helpers EventsHelpers
 helpers I18nHelpers
+helpers SocialHelpers
 
 
 # Build-specific configuration
