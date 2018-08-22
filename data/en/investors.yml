@@ -19,7 +19,7 @@ items:
     link: "https://breyercapital.com/"
     img: "breyer"
   -
-    link: "https://bixin.com/"
+    link: "http://bixincapital.com"
     img: "bixin"
   -
     link: "http://www.ceyuan.com/"
@@ -84,3 +84,6 @@ items:
   -
     link: "https://zk.capital/"
     img: "zk"
+  -
+    link: "https://www.src.capital"
+    img: "src"
