@@ -373,17 +373,7 @@ header.main-header.header {
       float: right; }
     .subscription .email-field {
       display: inline-block;
-      width: 250px;
-      float: none;
-      clear: none; }
-    .subscription .submit-button {
-      display: inline-block;
-      width: 180px;
-      margin-top: 0;
-      float: right; }
-    .subscription .email-field {
-      display: inline-block;
-      width: 250px;
+      width: 300px;
       float: none;
       clear: none; }
     .subscription .submit-button {
@@ -403,9 +393,10 @@ header.main-header.header {
       float: right;
       text-align: left; }
     .subscription .form {
-      float: left; }
+      display: flex;
+      flex-direction: column; }
     .subscription .email-field {
-      width: 250px;
+      min-width: 300px;
       float: left; }
     .subscription .submit-button {
       float: left; } }
@@ -423,11 +414,14 @@ header.main-header.header {
       width: 100%;
       text-align: center; }
     .subscription .form {
-      display: block;
-      width: 100%; }
+      width: 100%;
+      display: flex;
+      flex-direction: column; }
     .subscription .email-field {
-      width: 175px;
-      float: left; }
+      float: left;
+      min-width: 0;
+      width: 300px;
+      max-width: 100%; }
     .subscription .submit-button {
       width: 120px;
       float: right; } }
