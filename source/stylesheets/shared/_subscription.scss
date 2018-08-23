@@ -118,21 +118,7 @@
 
     .email-field {
       display: inline-block;
-      width: 250px;
-      float: none;
-      clear: none;
-    }
-
-    .submit-button {
-      display: inline-block;
-      width: 180px;
-      margin-top: 0;
-      float: right;
-    }
-
-    .email-field {
-      display: inline-block;
-      width: 250px;
+      width: 300px;
       float: none;
       clear: none;
     }
@@ -163,11 +149,12 @@
     }
 
     .form {
-      float: left;
+      display: flex;
+      flex-direction: column;
     }
 
     .email-field {
-      width: 250px;
+      min-width: 300px;
       float: left;
     }
 
@@ -196,13 +183,17 @@
     }
 
     .form {
-      display: block;
+      //display: block;
       width: 100%;
+      display: flex;
+      flex-direction: column;
     }
 
     .email-field {
-      width: 175px;
       float: left;
+      min-width: 0;
+      width: 300px;
+      max-width: 100%;
     }
 
     .submit-button {
