@@ -11,6 +11,9 @@ infos:
       brand:
         name: ". Media kit"
         link: "https://projects.invisionapp.com/boards/XE3ONPCHUFN/"
+      faq:
+        name: ". FAQ"
+        link: "/faq.html"
 
   community:
     name: "Community"
@@ -24,12 +27,12 @@ infos:
       reddit:
         name: ". Reddit"
         link: "https://www.reddit.com/r/NervosNetwork/"
-      blog:
-        name: ". Blog"
-        link: "https://medium.com/nervosnetwork"
-      blog:
+      events:
         name: ". Events"
         link: "/#events"
+      medium:
+        name: ". Medium"
+        link: "https://medium.com/@NervosNetwork"
 
   organization:
     name: "Organization"
@@ -49,10 +52,6 @@ infos:
       contact:
         name: ". Contact"
         link: "/contact.html"
-        blank: false
-      faq:
-        name: ". FAQ"
-        link: "/faq.html"
         blank: false
 
 
